@@ -459,10 +459,9 @@ textarea::-ms-input-placeholder
 /* For Menu Section */
 
 .navbar-default {
-    background-color: #474747;
+    background-color: transparent;
     border-color: #e7e7e7;
 	margin:0 auto;
-    border-bottom: 0px;
 }
 .navbar-default .navbar-nav>li>a {
     color: #f1f1f1;
@@ -490,15 +489,13 @@ textarea::-ms-input-placeholder
   .navbar-nav {
     text-align: center;
 }
-
 .navbar-toggle {
-    background-color:#474747;
+    background-color:#fff;
     border:0;
     border-radius:0;
 }
-
-.navbar-default .icon-bar {
-    background-color: #FFF;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
 }
 
 .menu-bg{
