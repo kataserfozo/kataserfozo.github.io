@@ -35,10 +35,23 @@ function changeImgSize(){
             img.css('max-width', 'auto');
         }
 jQuery(document).ready(function ($) {
-	$(window).load(function () {
-		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
-	});
+  $(window).load(function () {
+    $(".loaded").fadeOut();
+    $(".preloader").delay(1000).fadeOut("slow");
+  });
+
+  $('a[href*="#"]:not([href="#"])').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+       var target = $(this.hash);
+       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+       if (target.length) {
+         $('html, body').animate({
+           scrollTop: target.offset().top
+         }, 1000);
+         return false;
+       }
+     }
+   });
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -57,9 +70,9 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-	
-	
-	/*---------------------------------------------*
+  
+  
+  /*---------------------------------------------*
      * Portfolio Pop Up Animation
      ---------------------------------------------*/
 
@@ -72,12 +85,12 @@ jQuery(document).ready(function ($) {
             change:changeImgSize
         }
     });
-	
-	/*---------------------------------------------*
+  
+  /*---------------------------------------------*
      * Menu Background Change
      ---------------------------------------------*/
-	
-	var windowWidth = $(window).width();
+  
+  var windowWidth = $(window).width();
     if (windowWidth > 757) {
 
         
@@ -94,13 +107,13 @@ jQuery(document).ready(function ($) {
             });
         
     }
-	$('#bs-example-navbar-collapse-1').localScroll();
+  $('#bs-example-navbar-collapse-1').localScroll();
 
     /*---------------------------------------------*
      * STICKY scroll
      ---------------------------------------------*/
 
-		$.localScroll();
+    $.localScroll();
 
 
 
