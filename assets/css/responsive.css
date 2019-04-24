@@ -45,6 +45,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.portfolio-item {
     width: 45%;
 	}
+    
 	.contact-details .contact-category .mail h2 {
     font-size: 35px;
 	}
@@ -68,6 +69,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.scroll-down h5 {
     font-size: 13px;
 	}
+
+    .tablinks {
+        font-size: 13px;
+    }
 	
 	.portfolio-item {
     width: 99%;
