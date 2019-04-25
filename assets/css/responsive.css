@@ -48,6 +48,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.about-content {
     text-align: center;
 	}
+    .about-photo{
+    margin-top:10px;
+
+}
 	.portfolio-item {
     width: 45%;
 	}
