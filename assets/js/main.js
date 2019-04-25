@@ -155,4 +155,8 @@ jQuery(document).ready(function ($) {
 
 
     //End
+
+    $('.nav a').on('click', function(){
+      $('.navbar-toggle').click();
+  });
 });

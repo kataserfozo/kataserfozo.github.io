@@ -459,10 +459,9 @@ textarea::-ms-input-placeholder
 /* For Menu Section */
 
 .navbar-default {
-    background-color: #474747;
+    background-color: transparent;
     border-color: #e7e7e7;
 	margin:0 auto;
-    border-bottom: 0px;
 }
 .navbar-default .navbar-nav>li>a {
     color: #f1f1f1;
@@ -499,6 +498,10 @@ textarea::-ms-input-placeholder
 
 .navbar-default .icon-bar {
     background-color: #FFF;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 100%;
 }
 
 .menu-bg{
@@ -539,7 +542,6 @@ textarea::-ms-input-placeholder
 
 /* For About Section */
 .about-photo{
-    max-width: 90%;
     margin-top:40px;
 
 }
@@ -610,7 +612,17 @@ textarea::-ms-input-placeholder
 }
 .portfolio-details{
 	width:100%;
+    background:#bd9faf;
 }
+.portfolio-details img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.portfolio-details:hover img {
+    opacity: .3;
+}
+
 .portfolio-details img{
 	width:100%;
 }
