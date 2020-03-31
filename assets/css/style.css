@@ -36,17 +36,17 @@ PRE LOADER
 }
 
 .loaded {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 60px;
     position: absolute;
     left: 50%;
     top: 50%;
     background-image: url(../images/loading.gif);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     -moz-background-size: cover;
     background-size: cover;
-    margin: -20px 0 0 -20px;
+    margin:  0 0 0 -100px;
 }
 img {
     -moz-user-select: none;
