@@ -54,7 +54,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 }
 	.portfolio-item {
     width: 45%;
-    margin-left: 16px;
+    padding-left: 40px;
     float: center;
 	}
     .tablinks {
