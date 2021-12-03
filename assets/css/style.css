@@ -485,6 +485,7 @@ textarea::-ms-input-placeholder
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color:  #bd9faf;
     background-color: transparent;
+    text-decoration: overline;
 }
   .navbar-nav {
     text-align: center;
