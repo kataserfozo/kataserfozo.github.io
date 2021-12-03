@@ -566,6 +566,15 @@ textarea::-ms-input-placeholder
 .portfolio .title h3{
 	color:#f1f1f1;
 }
+.portfolio-title{
+    display: none;
+}
+
+.portfolio-details:hover + .portfolio-title{
+  display:block;
+  color:#ffffff;
+  padding-top: 8px;
+}
 /* Style the tab */
 .tab {
   display: flex;
@@ -607,9 +616,9 @@ textarea::-ms-input-placeholder
 .portfolio-item {
 	display:inline-block;
 	overflow:hidden;
-	width:17%;
-	margin-left:20px;
-	margin-bottom:20px;
+	width:30%;
+	margin-left:0;
+	margin-bottom: 0;
 	
 }
 .portfolio-details{
