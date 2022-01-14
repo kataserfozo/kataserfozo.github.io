@@ -102,9 +102,17 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         font-size: 13px;
     }
 
+    .tablinks.active {
+        font-color: white;
+    }
+
     .tab button {
       margin: 10px 0px 10px 0px;
     }
+    .tab {
+     display:block;
+     }
+
 	
 	.portfolio-item {
     width: 99%;
