@@ -60,7 +60,7 @@ a,
 a:hover,
 a:active,
 a:focus {
-    text-decoration: underline;
+    text-decoration: none;
     outline: none;
     font-size: 18px;
     color: #bd9faf;
@@ -494,7 +494,6 @@ textarea::-ms-input-placeholder
 }
 
 .navbar-toggle {
-    background-color:#27474E;
     border:0;
     border-radius:0;
 }
