@@ -60,8 +60,10 @@ a,
 a:hover,
 a:active,
 a:focus {
-    text-decoration: none;
+    text-decoration: underline;
     outline: none;
+    font-size: 18px;
+    color: #bd9faf;
 }
 a,
 button,

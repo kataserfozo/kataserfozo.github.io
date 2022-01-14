@@ -8,7 +8,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     body {
-        font-size: 15px;
+        font-size: 18px;
     }
     
 
@@ -19,6 +19,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 90%;
     }
+    .col-md-6 p{
+    font-size: 16px;
+    margin: 0px 16px 0px 16px;
+    } 
    .portfolio-item {
     width: 45%;
 	}
@@ -52,6 +56,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     margin-top:10px;
 
 }
+    .col-md-6 p{
+    font-size: 16px;
+    margin: 0px 16px 0px 16px;
+    } 
 	.portfolio-item {
     width: 45%;
     padding-left: 40px;
@@ -75,14 +83,20 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
     html {
-        font-size: 65%;
+        font-size: 16px;
     }
 	.home-details .home-title h1 {
-    font-size:20px;
+    font-size:24px;
 	}
 	.scroll-down h5 {
-    font-size: 13px;
-	}
+    font-size: 16px;
+    margin: 0px 16px 0px 16px;
+	} 
+
+    .col-md-6 p{
+    font-size: 16px;
+    margin: 0px 16px 0px 16px;
+    } 
 
     .tablinks {
         font-size: 13px;
