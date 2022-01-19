@@ -100,6 +100,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
     .tablinks {
         font-size: 13px;
+        margin: 10px;
     }
 
     .tablinks.active {
@@ -107,10 +108,12 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
 
     .tab button {
-      margin: 10px 0px 10px 0px;
+      margin: 10px 4px 10px 0px;
     }
     .tab {
-     display:block;
+     display:flex;
+     justify-content: center;
+     flex-wrap: wrap;
      }
 
 	
