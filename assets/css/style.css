@@ -630,7 +630,7 @@ textarea::-ms-input-placeholder
 }
 .portfolio-details{
 	width:100%;
-    background:#bd9faf;
+
 }
 .portfolio-details img {
     opacity: 1;
@@ -638,7 +638,11 @@ textarea::-ms-input-placeholder
     transition: .3s ease-in-out;
 }
 .portfolio-details:hover img {
-    opacity: .1;
+    background-color:#bd9faf;
+    opacity:.2;
+}
+.portfolio-details:hover {
+    background-color:#bd9faf;
 }
 
 .portfolio-details img{
