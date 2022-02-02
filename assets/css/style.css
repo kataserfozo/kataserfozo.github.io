@@ -641,6 +641,12 @@ textarea::-ms-input-placeholder
     background-color:#bd9faf;
     opacity:.2;
 }
+.portfolio-details:hover video {
+    background-color:#000;
+}
+.portfolio-details video {
+    background-color:#000;
+}
 .portfolio-details:hover {
     background-color:#bd9faf;
 }
